@@ -4,7 +4,7 @@ namespace SOLID.Interfaces
 {
 	public interface ICalculateDiscount 
 	{
-		void CalculateDiscount();
+		void CalculateDiscount(double price);
 	
 	}
 
