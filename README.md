@@ -1,3 +1,4 @@
+
 1. Separar responsabilidades ya que todo esta en una misma clase.
 2. Abierto a adicion y cerrado para modificaciones en los descuentos y tenerlos de todos los tipos posibles
 3. Inversion de dependencias para notificaciones y almacenamiento del pedido, no deben depender de una clase en especifico.
@@ -23,6 +24,6 @@
 
 
 ## Interfaces
-- ICalculateDiscount -> Calculate(price) - return (console) 
+- ICalculateDiscount -> CalculateDiscount(price) - return (console) 
 - INotification -> Notification() - return (console)
 - IOrderSaved -> OrderSaved() - return (console) 
